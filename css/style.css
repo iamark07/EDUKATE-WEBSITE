@@ -1,0 +1,1366 @@
+*{
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Jost', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 162, 255, 0.08) , rgba(0, 162, 255, 0.08)), url(../img/bg-image.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+/* get to top button start */
+
+#get_to_top_btn{
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    z-index: 999;
+    text-decoration: none;
+}
+
+#get_to_top_btn i{
+    font-size: 18px;
+    display: grid;
+    place-items: center;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: #1368de;
+}
+
+/* get to top button end */
+
+
+
+
+
+/* first social header start */
+
+.head_contact{
+    font-size: 13px;
+}
+
+.head_social{
+    font-size: 14px;
+}
+
+.head_social i{
+    color: white;
+    margin: 0px 7px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* first social header end */
+
+
+
+
+/* navbar start */
+
+.navbar{
+    background-color: white;
+    padding: 10px 48px;
+}
+
+.navbar-brand{
+    /* margin-right: 320px; */
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.nav_btn_container{
+    width: 100%;
+}
+
+.nav_container ul li{
+    margin: 0px 7px;
+}
+
+.nav_container ul li a{
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+} 
+
+.nav_container button{
+    padding: 8px 20px;
+    border: none;
+}
+
+/* navbar end */
+
+
+
+
+
+/* banner img section start */
+
+.banner_img{
+    background: linear-gradient(rgba(40,120,235,.9),rgba(40,120,235,.9)),url(../img/header.jpg);
+    background-size: cover;
+    padding: 0px;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner_img::after{
+    content: "";
+    background-image: url(../img/overlay-bottom.png);
+    position: absolute;
+    z-index: 1;
+    bottom: -.3%;
+    width: 100%;
+    height: 84px;
+}
+
+.banner_img .row .our_slogun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner_img .row .our_slogun h4{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.banner_img .row .our_slogun h1{
+    font-size: 100px;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+
+.searchbox{
+    margin-top: 15px;
+}
+
+.searchbox .dropdown button{
+    height: 60px;
+    padding: 0px 18px;
+    background-color: white;
+    color: rgb(103, 103, 103);
+    border: none;
+    border-right: .5px solid rgb(231, 231, 231);
+}
+
+.searchbox input{
+    padding: 0px 10px 0px 25px;
+    width: 350px;
+    border: 3px solid rgb(255, 255, 255);
+    outline: none;
+    font-size: 18px;
+}
+
+.searchbox input:focus{
+    border: 3px solid rgba(0, 98, 255, 0.304);
+}
+
+.searchbox > button{
+    width: 130px;
+    background-color: rgb(255, 0, 72);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.our_slogun{
+    padding: 0px;
+}
+
+/* banner img section end */
+
+
+
+
+
+/* about section start */
+
+.about{
+    background-color: white;
+    padding: 150px 0px;
+}
+
+.about_img{
+    object-fit: cover;
+}
+
+.about_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about_text h5{
+    color: rgb(255, 0, 136);
+    font-size: 19px;
+}
+
+.about_text h2{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.about_text p{
+    text-align: justify;
+}
+
+.about_us_counter{
+    padding: 0px 12px;
+}
+
+.about_us_counter_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 0px !important;
+}
+
+.about_us_counter_box p{
+    margin-bottom: 0px;
+}
+
+/* about section end */
+
+
+
+
+
+
+
+/* why choose us section start */
+
+.why_choose_us .why_choose_us_text_section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0px;
+}
+
+.why_choose_us_img_section{
+    padding: 100px 0px;
+}
+
+.why_choose_us_img_section img{
+    height: 100% !important;
+    object-fit:cover;
+}
+
+.why_choose_us .why_choose_us_text_section h5{
+    color: rgb(255, 0, 136);
+    font-size: 19px;
+}
+
+.why_choose_us .why_choose_us_text_section h1{
+    font-size: 60px;
+    font-weight:900;
+}
+
+.wcu_icon_container{
+    display: flex;
+    justify-content: center;
+}
+
+.why_choose_us_points i{
+    display: grid;
+    place-items: center;
+    color: white;
+    width: 80px;
+    height: 80px;
+}
+
+.why_choose_us .why_choose_us_text_section p{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.why_choose_us .why_choose_us_img_section p{
+    object-fit: cover;
+}
+
+/* why choose us section end */
+
+
+
+
+
+
+/* Our Courses section start */
+
+.our_course{
+    padding-top: 165px;
+    background-color: white;
+}
+
+.our_course h5{
+    color: rgb(255, 0, 136);
+    font-size: 19px;
+}
+
+.our_course h2{
+    font-size: 67px;
+    font-weight:900;
+    margin-top:20px;
+}
+
+
+
+.course_lists{
+    margin-top: 100px !important;
+    width: 100%;
+}
+
+.course{
+    height: 360px;
+}
+
+
+.course figure{
+    margin-bottom: 0px;
+    position: relative;
+    transition: all .3s;
+    height: 360px;
+    /* overflow: hidden; */
+    transition: all .3s;
+}
+
+.course figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .5s;
+    /* transform:translateY(40px); */
+}
+
+.course figure:hover img{
+    transform:translateY(-40px);
+}
+
+.course figure .overflow_item{
+    overflow: hidden;
+    height: 360px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.course figure .overflow_item .course_text{
+    
+    width: 100%;
+}
+
+.course figure .overflow_item .course_text .course_text_container_rgba{
+    width: 100%;
+    height: 410px;
+    background-image: linear-gradient(rgba(0,0,0,0) , rgba(0, 0, 0, 0.818));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: all .5s;
+    transform:translateY(40px);
+}
+
+.course figure:hover .overflow_item .course_text .course_text_container_rgba{
+    height: 320px;
+}
+
+.course figure .overflow_item .course_text .course_text_container_rgba h4{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-weight:700;
+}
+
+.course figure .overflow_item .course_text .course_text_container_rgba .course_icons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-top: 1px solid rgba(237, 237, 237, 0.863);
+}
+
+.course figure .overflow_item .course_text .course_text_container_rgba .course_icons p{
+    margin-bottom: 0px;
+    color: white;
+}
+
+.course figure .overflow_item .course_text .course_text_container_rgba .course_icons p span{
+    font-size: 11px;
+    margin-left: 2px;
+}
+
+.course figure .overflow_item .course_text .course_text_container_rgba .course_btn_container{
+    background-color: white;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course figure .overflow_item .course_text .course_text_container_rgba .course_btn_container .course_btn{
+    color: white;
+    background-color: rgb(0, 106, 255);
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Our Courses section end */
+
+
+
+
+
+
+
+/* offer for student section start */
+
+.std_offer{
+    margin: 100px 0px;
+}
+
+.std_offer h2{
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.std_offer_items{
+    background-color: #fff !important;
+    padding: 50px;
+}
+
+.inputs_items{
+    width: 45%;
+    padding: 15px 15px;
+    border: 3px solid white;
+    margin: 7px;
+    outline: none;
+    background-color: rgb(237, 246, 255);
+    transition: all .3s;
+    color: black;
+}
+
+.inputs_items:focus{
+    border: 3px solid rgb(169, 221, 255);
+}
+
+#select_course_lists option{
+    padding: 15px 10px;
+}
+
+.std_offer_inputs a{
+    
+    text-decoration: none;
+    padding: 0px;
+}
+
+.std_offer_inputs a button{
+    width: 100%;
+    height: 100%;
+    padding: 15px 10px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border: rgb(0, 119, 255);
+    transition: all .3s;
+}
+
+.std_offer_inputs a button:hover{
+    background-color: rgb(0, 119, 235);
+}
+
+/* offer for student section end */
+
+
+
+
+
+
+
+
+
+/* our instructors section start */
+
+
+
+
+
+
+
+/* our instructors section end */
+
+
+
+
+
+
+
+
+/* review section start */
+
+.review{
+    margin: 100px 0px !important;
+}
+
+.review_text h5{
+    color: rgb(255, 0, 136);
+    font-size: 19px;
+}
+
+.review_text h2{
+    font-size: 55px;
+    font-weight:900;
+}
+
+.review_text p{
+    margin-top: 25px;
+    font-size: 18px;
+    color: rgb(94, 94, 94);
+}
+
+.review_persons{
+    background-color: rgb(255, 255, 255);
+}
+
+.all_reviews{
+    padding: 40px;
+}
+
+.all_reviews i{
+    font-size: 70px;
+    color: rgb(0, 153, 255);
+    position: relative;
+    right: 10px;
+}
+
+.reviewers_img img{
+    width: 80px;
+    height: 80px;
+}
+
+.reviewers_img span{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reviewers_img span h5{
+    font-weight: 600;
+}
+
+.reviewers_img span p{
+    margin-bottom: 0px;
+}
+
+.review_carousel_container{
+    position: relative;
+}
+
+.review_carousel_btn_1{
+    position: absolute;
+    top: 0%;
+    right: 60px !important;
+    width: 60px;
+    height: 60px;
+}
+
+.review_carousel_btn_2{
+    position: absolute;
+    top: 0%;
+    right: 0px !important;
+    width: 60px;
+    height: 60px;
+}
+
+.review_persons button{
+    width: 60px;
+    opacity: 1;
+}
+
+#review_previous_carousel_btn_icon{
+    display: grid;
+    place-items: center;
+    width: 60px;
+    height: 60px;
+    background: none;
+    background-color: #F14D5D;
+    transition: all .3s;
+    font-size: 20px;
+}
+
+#review_next_carousel_btn_icon{
+    display: grid;
+    place-items: center;
+    width: 60px;
+    height: 60px;
+    background: none;
+    background-color: #2878EB;
+    transition: all .3s;
+    font-size: 20px;
+}
+
+#review_next_carousel_btn_icon:hover{
+    background-color: #F14D5D;
+}
+
+#review_previous_carousel_btn_icon:hover{
+    background-color: #2878EB;
+}
+
+/* review section end */
+
+
+
+
+
+
+/* contact us section start */
+
+.contact_us{
+    padding: 200px 0px !important;
+    background-color: white;
+}
+
+.contact_text{
+    background-color: #ECF4FF !important;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact_text_section:not(:last-child){
+    margin-bottom: 40px;
+}
+
+.contact_text i{
+    width: 77px;
+    height: 77px;
+    font-size: 35px;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+.contact_text span{
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact_text span h4{
+    font-weight: 900;
+}
+
+.contact_text span p{
+    margin-bottom: 0px !important;
+}
+
+.contact_input_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_input_section h5{
+    color: rgb(255, 0, 136);
+    font-size: 19px;
+    width: 100%;
+}
+
+.contact_input_section h2{
+    font-size: 65px;
+    font-weight: 900;
+    width: 100%;
+}
+
+.contact_input_section input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(193, 193, 193);
+    padding: 7px 0px;
+    font-size: 18px;
+}
+
+.contact_input_section input:focus{
+    outline: 3px solid rgb(175, 215, 245);
+}
+
+.contact_input_section textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(193, 193, 193);
+    padding: 7px 0px;
+    font-size: 18px; 
+}
+
+.contact_input_section textarea:focus{
+    outline: 3px solid rgb(175, 215, 245);
+}
+
+.contact_submit_btn{
+    display: block;
+    width: 240px;
+    height: 60px;
+}
+
+.contact_submit_btn button{
+    width: 100%;
+    height: 100%;
+    background-color: #2878EB;
+    text-decoration: none;
+    border: none;
+    color: white;
+    transition: all .2s;
+}
+
+.contact_submit_btn button:hover{
+    background-color: #1368de;
+}
+
+/* contact us section end */
+
+
+
+
+
+
+/* footer section start */
+
+footer{
+    position: relative;
+    background-color: #120F2D !important;
+}
+
+footer .footer_design_img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.footer_container{
+    padding: 150px 80px 100px 80px;
+}
+
+.footer_logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 43px;
+    font-weight: 900;
+}
+
+.footer_logo p{
+    color: rgba(255, 255, 255, 0.5) !important;
+    font-size: 18px;
+}
+
+.footer_sign_up{
+margin-top: 18px;
+}
+
+#footer_sign_up_input{
+    padding: 16px 30px;
+    width: 80%;
+    font-size: 18px;
+    outline: none;
+}
+
+#footer_sign_up_input:focus{
+    outline: 3px solid rgba(0, 98, 255, 0.282);
+}
+
+#footer_sign_up_btn {
+    width: 20%;
+    padding: 16px 10px;
+    border-radius: 0px;
+    border: none;
+    background-color: #1368de;
+    color: white;
+    font-weight: 400;
+}
+
+.footer_get_in_touch ul{
+    padding-left: 0px;
+}
+
+.footer_get_in_touch ul li{
+    display: flex;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.5) !important;
+    margin: 10px 0px;
+}
+
+.footer_get_in_touch ul li i{
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.footer_social_icon{
+    margin-top: 30px;
+}
+
+.footer_social_icon a{
+    text-decoration: none;
+    
+}
+
+.footer_social_icon a:not(:last-child){  
+    margin-right:20px;
+}
+
+.footer_social_icon a i{
+    color: white;
+    font-size: 33px;
+}
+
+
+.footer_our_course ul{
+    padding-left: 0px;
+}
+
+.footer_our_course ul li{
+    display: flex;
+    list-style: none;
+    margin: 7px 0px;
+}
+
+.footer_our_course ul li a{
+    color: rgba(255, 255, 255, 0.5) !important;
+    text-decoration: none;
+}
+
+.footer_our_course ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer_our_course ul li a i{
+    margin-right: 5px;
+}
+
+
+.footer_quick_links ul{
+    padding-left: 0px;
+}
+
+.footer_quick_links ul li{
+    display: flex;
+    list-style: none;
+    margin: 7px 0px;
+}
+
+.footer_quick_links ul li a{
+    color: rgba(255, 255, 255, 0.5) !important;
+    text-decoration: none;
+}
+
+.footer_quick_links ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer_quick_links ul li a i{
+    margin-right: 5px;
+}
+
+.last_footer_copyright{
+    padding: 20px 80px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.last_footer_name_link{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
+
+.last_footer_name_link:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+/* footer section end */
+
+
+
+
+
+/* responsive for small device from width = 340px to 767px */
+
+@media screen and (min-width:340px) and (max-width:767px) {
+
+
+    /* first social header start */
+
+    .first_social_header .row{
+        padding: 8px 0px !important;
+    }
+
+    .head_contact{
+        justify-content: center;
+    }
+
+    .head_contact i{
+        font-size: 13px;
+    }
+
+    .head_contact p{
+        font-size: 13px;
+    }
+
+    .head_social{
+        margin-top: 10px;
+        justify-content: center !important;
+    }
+
+    .head_social i{
+        display: block;
+    }
+
+    /* first social header end */
+
+
+
+
+    /* navbar start */
+    
+    .navbar{
+        padding: 8px !important;
+    }
+
+    .navbar-brand{
+        margin-right: 0px;
+        font-size: 30px;
+    }
+
+    .nav_btn_container{
+        justify-content: start !important;
+    }
+
+    /* navbar end */
+
+
+
+
+
+    /* banner img section start */
+
+    .banner_img .row .our_slogun h4 {
+        font-size: 30px;
+    }
+
+    .banner_img .row .our_slogun h1 {
+        font-size: 38px;
+    }
+
+    .searchbox .dropdown button{
+        height: 50px;
+        padding: 0px 8px;
+        font-size: 14px;
+    }
+
+    .searchbox input{
+        width: 180px !important;
+    }
+
+    .searchbox > button{
+        width: 74.010px;
+        font-size: 14px;
+    }
+
+    /* banner img section end */
+
+
+
+
+
+
+    /* about section start */
+    
+    .about_text h2{
+        font-size: 31px;
+    }
+
+    /* about section end */
+
+
+
+
+    /* why choose us section start */
+
+    .why_choose_us .why_choose_us_text_section{
+        padding: 20px 0px;
+    }
+
+    .why_choose_us .why_choose_us_text_section h1 {
+        font-size: 31px;
+    }
+
+    /* why choose us section end */
+
+
+
+
+
+    /* Our Courses section start */
+
+    .course{
+        margin: 30px 20px;
+    }
+
+    .our_course h2{
+        font-size: 43px;
+    }
+
+    /* Our Courses section end */
+
+
+
+
+
+    /* offer for student section start */
+
+    .std_offer h2{
+        font-size: 23px;
+    }
+
+    .inputs_items{
+        width: 100%;
+    }
+
+    /* offer for student section end */
+
+
+
+
+
+
+    /* review section start */
+
+    .all_reviews{
+        padding: 40px 25px;
+    }
+
+    .review_text{
+        margin: 20px 16px;
+    }
+
+    .review_text h2{
+        font-size: 33px;
+        margin-bottom: 0px;
+        margin-top: 25px;
+    }
+
+    .review_text p{
+        margin-top: 15px;
+    }
+    
+    .review_persons{
+        margin: 20px 16px;
+    }
+
+    .reviewers_img{
+        margin-top: 25px;
+    }
+
+    .review_carousel_btn_1{
+        right: 50px !important;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .review_carousel_btn_2{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .review_persons button{
+        width: 50px;
+    }
+    
+    #review_previous_carousel_btn_icon{
+        width: 50px;
+        height: 50px;
+    }
+    
+    #review_next_carousel_btn_icon{
+        width: 50px;
+        height: 50px;
+        
+    }
+
+    /* review section end */
+
+
+
+
+
+    /* contact us section start */
+
+    .contact_us{
+        padding: 80px 0px 100px 0px !important;
+    }
+
+    .contact_text{
+        padding: 50px 30px;
+    }
+
+    .contact_input_section h2{
+        font-size: 36px;
+    }
+
+    /* contact us section end */
+
+
+
+
+
+    /* footer section start */
+
+    footer .footer_design_img {
+        top: -0.2%;
+    }
+
+    .footer_container {
+        padding: 100px 25px 50px 25px;
+    }
+
+    #footer_sign_up_input {
+        width: 75%;
+    }
+
+    #footer_sign_up_btn {
+        width: 25%;
+    }
+    
+    .last_footer_copyright{
+        padding: 20px 25px;
+        font-size: 13px;
+    }
+
+    .copyright{
+        justify-content: center;
+    }
+
+    .designer_name{
+        justify-content: center !important;
+        margin-top: 7px;
+    }
+
+    /* footer section end */
+    
+}
+
+
+/* responsive for tablet from width = 768px to 992px */
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    
+
+    /* first social header start */
+
+    .first_social_header .row{
+        padding: 8px 18px !important;
+    }
+
+    .head_contact i{
+        font-size: 13px;
+    }
+
+    .head_contact p{
+        font-size: 13px;
+    }
+
+    /* first social header end */
+
+
+
+
+    /* navbar start */
+
+    .navbar-brand{
+        margin-right: 30px;
+        font-size: 26px;
+    }
+
+    .navbar{
+        padding: 8px 30px !important;
+    }
+
+    .navbar-collapse ul{
+        margin-bottom: 0px !important;
+    }
+
+    .nav_container ul li a{
+        font-size: 14px;
+    }
+
+    .nav_container button{
+        padding: 6px 15px;
+    }
+
+    .banner_img .row .our_slogun h1{
+        font-size: 90px;
+    }
+
+    /* navbar end */
+
+
+
+
+    /* about section start */
+    
+    .about{
+        padding-bottom: 100px;
+    }
+
+    /* about section end */
+
+
+
+
+
+    /* why choose us section start */
+
+    .why_choose_us .why_choose_us_text_section{
+        padding: 70px 0px !important;
+    }
+
+    /* why choose us section end */
+
+
+
+
+
+    /* Our Courses section start */
+
+    .course{
+        margin: 20px;
+    }
+
+    /* Our Courses section end */
+
+
+
+
+
+
+    /* review section start */
+
+    .review{
+        margin-top: 150px !important;
+    }
+
+    .review_text{
+        margin: 30px 16px;
+    }
+    
+    .review_persons{
+        margin: 30px 16px;
+    }
+
+    /* review section end  */
+
+
+
+
+
+    /* contact us section start */
+
+    .contact_us{
+        padding: 120px 0px !important;
+    }
+
+    /* contact us section end */
+
+
+
+
+
+    /* footer section start */
+
+
+    footer .footer_design_img {
+        top: -0.2%;
+    }
+
+    .footer_container {
+        padding: 100px 25px 50px 25px;
+    }
+
+    #footer_sign_up_input {
+        width: 75%;
+    }
+
+    #footer_sign_up_btn {
+        width: 25%;
+    }
+
+    .last_footer_copyright{
+        padding: 20px 25px;
+    }
+
+    /* footer section end */
+
+}
+
+
+
+
+
+
+
+/* responsive for large device from width = 992px to 1200px */
+
+@media screen and (min-width:992px) and (max-width:1120px) {
+
+    /* contact us section start */
+
+    .contact_input_section h2{
+        font-size: 53px;
+    }
+
+    /* contact us section end */
+}
+
+
+
+
+/* responsive for large device from width = 992px to 1200px */
+
+@media screen and (min-width:1120px) and (max-width:1200px) {
+
+    /* contact us section start */
+
+    .contact_input_section h2{
+        font-size: 60px;
+    }
+
+    /* contact us section end */
+}
+
+
+
+
+
+
+/* @media only screen and (max-width:1280px) {
+    .post-slide .post-content{
+        padding: 0px 15px 25px 15px;
+    }
+} */
